@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-ushcn"
+version = "0.1.0"
+description = ""
+authors = ["Richard Lyon <6917342+richardjlyon@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "python_ushcn"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+matplotlib = "^3.9.1"
+pytest = "^8.2.2"
+numpy = "^2.0.0"
+mpld3 = "^0.5.10"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

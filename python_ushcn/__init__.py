@@ -1,0 +1,25 @@
+from datetime import datetime
+from pathlib import Path
+
+import matplotlib
+import matplotlib.dates as mdates
+
+
+def data_dir() -> Path:
+    """Return the path to the data directory."""
+    project_root = Path(__file__).resolve().parent.parent
+
+    return project_root / "data"
+
+
+def patch(start_year, end_year, colour):
+    """Creates a plot patch for the specified years."""
+    x_position = mdates.date2num(datetime(start_year, 6, 1))
+    width = mdates.date2num(datetime(end_year, 7, 1)) - x_position
+    face_colour = f"tab:{colour}"
+
+    rect = matplotlib.patches.Rectangle(
+        (x_position, 0), width, 50, linewidth=1, edgecolor=colour, facecolor=face_colour, alpha=0.1,
+    )
+
+    return rect
