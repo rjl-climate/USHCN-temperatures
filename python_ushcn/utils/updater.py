@@ -40,7 +40,7 @@ def download_file(element: str, dataset: str):
     url = url_from_parts(element, dataset)
 
     # Destination path
-    dir_path = data_dir() / element / dataset
+    dir_path = data_dir() / "monthly" / element / dataset
     dir_path.mkdir(parents=True, exist_ok=True)
     file_name = url.split("/")[-1]
     file_path = dir_path / file_name

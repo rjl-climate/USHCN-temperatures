@@ -43,3 +43,8 @@ Script `plots/max_temps.py` plots the maximum temperatures with a rolling averag
 
 **Licence: MIT**
 
+
+## Other datasets
+
+* [Long-Term Daily and Monthly Climate Records from Stations Across the Contiguous United States (U.S. Historical Climatology Network)](https://knb.ecoinformatics.org/view/doi%3A10.3334%2FCDIAC%2FCLI.NDP019) Daily data, last updated 2016.
+* [NCEI Quality Controlled datasets](https://www.ncei.noaa.gov/access/crn/qcdatasets.html) Selected subsets of monthly, daily, hourly and sub-hourly (5-minute) USCRN/USRCRN data are available as text files

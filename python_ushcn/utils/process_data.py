@@ -96,9 +96,9 @@ def create_dataframe(weather_data_list: List[WeatherData]) -> DataFrame:
             )
 
     df = pd.DataFrame(data_records)
-    df['month'] = df.groupby('year').cumcount() + 1
-    df['year'] = pd.to_datetime(df['year'], format='%Y')
-    pivot_df = df.pivot(index='year', columns=['observer_id', 'month'], values='value')
+    df["month"] = df.groupby("year").cumcount() + 1
+    df["year"] = pd.to_datetime(df["year"], format="%Y")
+    pivot_df = df.pivot(index="year", columns=["observer_id", "month"], values="value")
 
     return pivot_df
 
