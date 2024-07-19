@@ -19,7 +19,8 @@ a companion application [available here](https://crates.io/crates/ushcn) that do
 from the USHCN FTP site.
 
 The individual scripts are located in the `scripts` directory. The results are presented in
-the `docs` directory, which present a plot of the data and a brief analysis of the results, together
+the [documentation](https://rjl-climate.github.io/USHCN-temperatures/
+), which presents the plots and a brief analysis of the results, together
 with the script that was used to produce it. The purpose of this is to ensure the maximum transparency
 and reproducibility of the results.
 

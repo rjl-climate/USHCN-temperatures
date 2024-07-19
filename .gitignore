@@ -6,3 +6,4 @@ data/
 /python_ushcn/daily/ghcnd_hcn/
 *.sqlite
 /python_ushcn/scratch/
+/site/
