@@ -1,0 +1,24 @@
+site_name: US Historical Climatology Network (USHCN) Data
+
+plugins:
+  - search
+  - macros:
+      module_name: macros
+
+nav:
+  - Home: 'index.md'
+  - Installation:
+      - Downloader: 'installation/downloader.md'
+      - Scripts: 'installation/scripts.md'
+  - 'Data Sources': 'data_sources.md'
+  - Plots:
+      - 'Are hotter days increasing?': 'plots/are_hotter_days_increasing.md'
+      - 'Daily observations': 'plots/daily_observations_falling.md'
+  - Contact: 'contact.md'
+
+
+
+theme:
+  name: material
+  palette:
+    primary: pink
