@@ -18,7 +18,7 @@ to evaluate the claim of an upward trend in temperature. The datafiles are gener
 a companion application [available here](https://crates.io/crates/ushcn) that downloads the latest USHCN datafiles
 from the USHCN FTP site.
 
-The individual scripts are located in the `scripts` directory. The results are presented in
+The individual scripts are located in the `plots` directory. The results are presented in
 the [documentation](https://rjl-climate.github.io/USHCN-temperatures/
 ), which presents the plots and a brief analysis of the results, together
 with the script that was used to produce it. The purpose of this is to ensure the maximum transparency
@@ -29,4 +29,9 @@ a material error in the analysis, please let me know. If I agree, I will correct
 with the new data.
 
 **Licence: MIT**
+
+## Change log
+
+- 2024-07-21 - Add "Are Heatwaves Increasing?" analysis
+- 2024-07-20 - Initial release
 
